@@ -1,4 +1,5 @@
 'use strict';
+'use strict';
 const superb = require('superb');
 const normalizeUrl = require('normalize-url');
 const humanizeUrl = require('humanize-url');
@@ -108,6 +109,7 @@ module.exports = class extends yeoman.Base {
 			}
 
 			mv('editorconfig', '.editorconfig');
+			mv('eslintrc', '.eslintrc');
 			mv('gitattributes', '.gitattributes');
 			mv('gitignore', '.gitignore');
 			mv('travis.yml', '.travis.yml');
