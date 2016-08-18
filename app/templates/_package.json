@@ -32,8 +32,9 @@
     "ava": "^0.15.2",<% if (coveralls) { %>
     "coveralls": "^2.11.12",<% } %><% if (nyc) { %>
     "nyc": "^7.1.0",<% } %>
-	"eslint": "^3.3.0",
-    "eslint-config-airbnb": "^10.0.1"
+	"eslint": "*",
+	"eslint-plugin-import": "*",
+    "eslint-config-airbnb-base": "*"
   }<% if (coveralls) { %>,
   "nyc": {
     "reporter": [
