@@ -14,7 +14,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "eslint && <% if (nyc) { %>nyc <% } %>ava"
+    "test": "<% if (nyc) { %>nyc <% } %>ava"
   },
   "files": [
     "index.js"<% if (cli) { %>,
